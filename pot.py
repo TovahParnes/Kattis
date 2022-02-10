@@ -4,6 +4,8 @@ sum = 0
 
 for i in range(num):
     a = int(input())
-    sum += a ** (i)
+    p = int(a/10)
+    exp = a%10
+    sum += p ** (exp)
 
 print(sum)
